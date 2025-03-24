@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BigEComerce.Promocao.Infraestrutura\BigEComerce.Promocao.Infraestrutura.csproj" />
+    <ProjectReference Include="..\BigECommerce.Promocao.Aplicacao\BigECommerce.Promocao.Aplicacao.csproj" />
+    <ProjectReference Include="..\BigECommerce.Promocao.Dominio\BigECommerce.Promocao.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>

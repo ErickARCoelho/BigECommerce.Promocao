@@ -1,0 +1,6 @@
+@BigECommerce.Promocao.API_HostAddress = http://localhost:5030
+
+GET {{BigECommerce.Promocao.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
